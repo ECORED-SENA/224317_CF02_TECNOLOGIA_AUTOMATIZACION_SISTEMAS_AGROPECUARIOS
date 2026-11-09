@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cuestionario formativo sobre fundamentos de instrumentación y automatismos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> refuerce sus conocimientos sobre unidades, electrotecnia, electrónica digital, planos, fabricación, cableado y control aplicados a la automatización agropecuaria.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,60 +30,59 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'En un sistema de riego, usted lee una presión de 2 bar. ¿A cuántos kilopascales equivale?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: '20 kPa',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: '200 kPa',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: '2.000 kPa',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '0,2 kPa',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Un transmisor entrega 20 mA a través de una resistencia de 250 Ω. ¿Qué tensión obtiene usted al aplicar la ley de Ohm?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '0,5 V',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '12,5 V',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '5 V',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '50 V',
               esCorrecta: false,
             },
           ],
@@ -92,29 +91,30 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            'Para medir corriente con un multímetro convencional, ¿cómo debe conectarlo usted al circuito?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'En paralelo con la carga.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Entre la fase y tierra.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Entre los extremos de una resistencia desconectada.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'En serie y con el borne de corriente adecuado.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -123,28 +123,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué función cumple el regulador en una fuente regulada lineal que usted instala?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Mantener constante la tensión de salida.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Reducir la tensión mediante un transformador.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Rectificar la corriente alterna.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Suavizar el rizado mediante condensadores.',
               esCorrecta: false,
             },
           ],
@@ -153,28 +153,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            'Usted necesita activar una bomba únicamente cuando hay agua y es hora de riego. ¿Qué compuerta lógica representa esta condición?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'OR',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'NOT',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'AND',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'XOR',
               esCorrecta: false,
             },
           ],
@@ -183,29 +184,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué información debe consultar usted en un plano as-built?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'La propuesta inicial sin cambios de obra.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'El estado real de la instalación construida.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Únicamente los costos del proyecto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Solo las dimensiones del papel.',
               esCorrecta: false,
             },
           ],
@@ -215,29 +215,29 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué caracteriza un proceso de fabricación por arranque de material que usted utiliza para elaborar soportes?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'La deformación del material entre rodillos.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El doblado de una lámina.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'La unión de piezas sin mecanizado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'La retirada de material en forma de viruta.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -246,28 +246,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            'Al marquillar los conductores de un tablero, ¿qué identificación debe colocar usted?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'El código del plano en ambos extremos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Un código diferente en cada extremo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Solo el nombre del fabricante del cable.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Únicamente la fecha de compra del conductor.',
               esCorrecta: false,
             },
           ],
@@ -277,28 +277,28 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Si usted configura una incubadora a 38 °C, ¿qué representa ese valor en el sistema de control?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'La variable real medida por el sensor.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La potencia de la resistencia calefactora.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'El set point o valor de consigna.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La perturbación causada por abrir la puerta.',
               esCorrecta: false,
             },
           ],
@@ -308,28 +308,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'Usted instala un riego que compara la humedad medida con el valor deseado y corrige su funcionamiento. ¿Qué tipo de control utiliza?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Lazo abierto por temporizador.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Lazo cerrado con realimentación.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Accionamiento manual sin medición.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Lazo abierto sin sensor.',
               esCorrecta: false,
             },
           ],
@@ -339,28 +339,28 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'Si usted conecta resistencias de 10 kΩ y 20 kΩ en serie, ¿qué resistencia total obtiene?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '6,67 kΩ.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '10 kΩ.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: '30 kΩ.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '200 kΩ.',
               esCorrecta: false,
             },
           ],
@@ -370,28 +370,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué instrumento debe utilizar usted para observar cómo cambia una tensión en el tiempo?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Telurómetro.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Osciloscopio.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Megóhmetro.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Óhmetro.',
               esCorrecta: false,
             },
           ],
@@ -401,28 +401,28 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué dispositivo debe seleccionar usted para conmutar una resistencia calefactora sin partes móviles?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Relé de estado sólido.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Contactor electromecánico.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Pulsador normalmente abierto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Relé electromecánico.',
               esCorrecta: false,
             },
           ],
@@ -432,29 +432,29 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué símbolos utiliza usted para representar números en el sistema binario?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Del 0 al 9.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Del 0 al 7.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Del 0 al 9 y de A a F.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: '0 y 1.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -463,28 +463,188 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Para qué utiliza usted un mapa de Karnaugh en electrónica digital?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Medir la resistencia de aislamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Simplificar funciones booleanas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Convertir corriente alterna en continua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Determinar la escala de un plano.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué instrumento debe utilizar usted para medir la resistencia de la puesta a tierra?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Generador de funciones.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Osciloscopio.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Telurómetro.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Pinza amperimétrica.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué función cumple el blindaje de un cable de señal que usted instala?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Proteger la señal de interferencias electromagnéticas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Aumentar la frecuencia de la señal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Transformar corriente alterna en continua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir el aislamiento de los conductores.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué elemento debe seleccionar usted para proteger un circuito en una zona húmeda contra fugas a tierra?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Relé temporizador.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Pulsador de marcha.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Contactor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Interruptor diferencial.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            'Durante un ciclo de operación del PLC, ¿qué secuencia debe reconocer usted?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Actualizar salidas, leer entradas y ejecutar el programa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Leer entradas, ejecutar el programa y actualizar salidas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Ejecutar el programa, actualizar salidas y leer entradas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Leer entradas y actualizar salidas sin ejecutar el programa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            'En un control ON/OFF, ¿para qué utiliza usted una banda de histéresis?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cambiar la unidad de temperatura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar la medición de la variable.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Evitar conmutaciones continuas alrededor del valor de consigna.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Convertir el controlador en un sistema de lazo abierto.',
               esCorrecta: false,
             },
           ],
