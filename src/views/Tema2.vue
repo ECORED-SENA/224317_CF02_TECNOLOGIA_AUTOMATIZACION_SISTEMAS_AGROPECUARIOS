@@ -98,7 +98,7 @@
       Separador
       #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.3 Ley de Ohm y ley de Watt
-      p La ley de Ohm establece que la corriente en un conductor es directamente proporcional a la tensión aplicada e inversamente proporcional a su resistencia, I = V / R (Boylestad, 2011). La ley de Watt relaciona potencia, tensión y corriente, P = V × I, y al combinarse con la de Ohm también se expresa como P = I² × R o P = V² / R.
+      p La ley de Ohm establece que la corriente en un conductor es directamente proporcional a la tensión aplicada e inversamente proporcional a su resistencia, I = V / R (Boylestad, 2011). La ley de Watt relaciona potencia, tensión y corriente, P = V × I, y al combinarse con la de Ohm, también se expresa como P = I² × R o P = V² / R.
       p.mb-5 La aplicación de ambas leyes en un lazo de corriente se presenta a continuación:
       .row.justify-content-center.align-items-center.mb-0
         .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")

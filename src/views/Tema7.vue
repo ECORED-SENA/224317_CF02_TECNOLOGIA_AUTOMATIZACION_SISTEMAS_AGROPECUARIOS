@@ -133,7 +133,7 @@
       Separador
       #t_7_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 7.4 Terminación de conductores y elementos de protección
-      p La terminación de un conductor asegura una conexión firme y duradera. En cables multifilares se usan terminales tipo puntera (ferrule), de ojo o de horquilla, prensados con la herramienta adecuada, y en borneras de tornillo se aplica el torque indicado por el fabricante. Una terminación floja genera calentamiento, falsos contactos y fallas intermitentes difíciles de diagnosticar.
+      p La terminación de un conductor asegura una conexión firme y duradera. En cables multifilares se usan terminales tipo puntera (#[i ferrule]), de ojo o de horquilla, prensados con la herramienta adecuada, y en borneras de tornillo se aplica el torque indicado por el fabricante. Una terminación floja genera calentamiento, falsos contactos y fallas intermitentes difíciles de diagnosticar.
       p.mb-5 Los elementos de protección interrumpen el circuito ante condiciones anormales. El riesgo que controla cada uno y su ubicación típica se presentan a continuación:
       .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
         h5 Tabla 17.
@@ -200,7 +200,7 @@
                   img(src='@/assets/curso/temas/t7/img12.png', alt="" style="max-width: 100px").m-auto
               h4.text-center Cables de instrumentación
               p.mb-0.text-center Conducen señales de bajo nivel, normalmente en par trenzado y apantallado.
-      p El tendido debe separar los cables de potencia de los de señal, respetar los radios de curvatura, evitar tensiones mecánicas y dejar holgura en las terminaciones. El marquillado y etiquetado identifica cada conductor en sus dos extremos con el mismo código que figura en el plano, por ejemplo, el número de borne o el tag del instrumento. Un tablero bien marquillado reduce el tiempo de diagnóstico y es un requisito para entregar planos #[i as-built] confiables.
+      p El tendido debe separar los cables de potencia de los de señal, respetar los radios de curvatura, evitar tensiones mecánicas y dejar holgura en las terminaciones. El marquillado y etiquetado identifica cada conductor en sus dos extremos con el mismo código que figura en el plano, por ejemplo, el número de borne o el #[i tag] del instrumento. Un tablero bien marquillado reduce el tiempo de diagnóstico y es un requisito para entregar planos #[i as-built] confiables.
       p.mb-5 La secuencia de una instalación eléctrica segura se presenta a continuación:
       .bg___color_1
         .px-5

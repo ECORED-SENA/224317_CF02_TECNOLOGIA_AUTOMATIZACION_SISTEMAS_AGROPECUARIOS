@@ -15,7 +15,7 @@
             img(src='@/assets/curso/temas/t1/img1.png', alt='' style="max-width: 400px").m-auto
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.1 Concepto de magnitud, unidad y sistema de unidades
-      p.mb-5 Para expresar correctamente cualquier medida es necesario distinguir tres conceptos, que se presentan a continuación (Instituto Nacional de Metrología [INM], 2025):
+      p.mb-5 Para expresar correctamente cualquier medida, es necesario distinguir tres conceptos, que se presentan a continuación (Instituto Nacional de Metrología [INM], 2025):
       .row.justify-content-center.mb-5
         .col-xl-4.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
           .box___card_sinbordes.h-100
@@ -111,7 +111,7 @@
                     .col-8
                       img(src='@/assets/curso/temas/t1/img9.svg' style="max-width: 90px").m-auto
                   h4.mb-3.estilo-text Mayúsculas y minúsculas
-                  p.mb-0.text-center Cambian el significado del símbolo. “mA” es miliamperio y “MA” sería mega amperio.
+                  p.mb-0.text-center Cambian el significado del símbolo. “mA” es miliamperio y “MA” sería megaamperio.
                 .tarjeta.color-acento-botones.p-4
                   .row.justify-content-center.mb-3
                     .col-8
@@ -271,7 +271,7 @@
           .box___style_2.color___2.fit___box_3(data-aos="fade-left")
             .titles___box_cuarto_nivel.mb-3(data-aos="fade-right")   
               h4.mb-0 Para reflexionar
-            p.mb-0 Antes de conectar cualquier equipo conviene preguntarse en qué unidad está la placa, si la escala del instrumento coincide con la del manual y si el resultado del cálculo tiene sentido físico. Un valor absurdo suele revelar un error de unidades.
+            p.mb-0 Antes de conectar cualquier equipo, conviene preguntarse en qué unidad está la placa, si la escala del instrumento coincide con la del manual y si el resultado del cálculo tiene sentido físico. Un valor absurdo suele revelar un error de unidades.
       p.mb-5 La ruta para trabajar con unidades en un automatismo se presenta a continuación:
       .bg___color_1
         .px-5

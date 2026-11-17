@@ -9,7 +9,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .box___style_1.fit___box_1(data-aos="fade-right")
-            p.mb-0 Antes de instalar un instrumento es necesario saber dónde va, cómo se conecta al proceso y cómo se cablea. Esa información se comunica mediante planos. El dibujo técnico es un lenguaje gráfico normalizado que permite que el diseñador, el instalador y el encargado del mantenimiento entiendan lo mismo, aunque trabajen en distintos momentos y lugares.
+            p.mb-0 Antes de instalar un instrumento, es necesario saber dónde va, cómo se conecta al proceso y cómo se cablea. Esa información se comunica mediante planos. El dibujo técnico es un lenguaje gráfico normalizado que permite que el diseñador, el instalador y el encargado del mantenimiento entiendan lo mismo, aunque trabajen en distintos momentos y lugares.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t5/img1.png', alt='' style="max-width: 400px").m-auto
@@ -185,7 +185,7 @@
             .col-lg.order-2.mb-4.mb-lg-0
               h4 Diagramas electroneumáticos y electrohidráulicos
               p.mb-0 Combinan en dos partes el circuito de fluido (válvulas, cilindros) y el circuito eléctrico que acciona las electroválvulas, identificando cada elemento con la misma designación en ambos.
-      p.mb-5 La información que contiene cada diagrama y su utilidad en la instalación se resumen a continuación:
+      p.mb-5 La información que contiene cada diagrama y su utilidad en la instalación se resume a continuación:
       .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
         h5 Tabla 13.
         span Tipos de diagramas en la documentación de un automatismo

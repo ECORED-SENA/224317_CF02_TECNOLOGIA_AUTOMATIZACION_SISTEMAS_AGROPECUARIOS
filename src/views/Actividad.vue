@@ -293,7 +293,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'El set point o valor de consigna.',
+              texto: 'El <i>set point</i> o valor de consigna.',
               esCorrecta: true,
             },
             {

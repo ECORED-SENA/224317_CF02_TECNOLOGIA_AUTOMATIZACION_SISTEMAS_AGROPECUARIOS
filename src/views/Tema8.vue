@@ -15,7 +15,7 @@
             img(src='@/assets/curso/temas/t8/img1.png', alt='' style="max-width: 400px").m-auto
       #t_8_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 8.1 Lógica cableada
-      p.mb-5 En la lógica cableada la función de control se define mediante el conexionado de elementos electromecánicos, cuya función se presenta a continuación:
+      p.mb-5 En la lógica cableada, la función de control se define mediante el conexionado de elementos electromecánicos, cuya función se presenta a continuación:
       .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
         h5 Tabla 18.
         span Elementos de la lógica cableada
@@ -56,7 +56,7 @@
                 .row.align-items-center
                   .col-lg.mb-4.mb-lg-0
                     h3 Paso 1. Pulsar marcha
-                    p.mb-0 Al pulsar marcha se energiza la bobina del contactor.
+                    p.mb-0 Al pulsar marcha, se energiza la bobina del contactor.
                   .col-auto(data-aos="zoom-in")
                     figure
                       img(src='@/assets/curso/temas/t8/img2.png', alt='' style="width: 160px").m-auto
@@ -108,7 +108,7 @@
           Separador
           #t_8_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
             h2 8.3 Concepto de sistema y control en lazo abierto y cerrado
-      p.mb-5 Un sistema es un conjunto de elementos que interactúan para cumplir una función. En control se representa como un bloque que recibe entradas y produce salidas, y puede operar en lazo abierto o en lazo cerrado, como se presenta a continuación (Ogata, 2010):
+      p.mb-5 Un sistema es un conjunto de elementos que interactúan para cumplir una función. En control, se representa como un bloque que recibe entradas y produce salidas, y puede operar en lazo abierto o en lazo cerrado, como se presenta a continuación (Ogata, 2010):
       .row.justify-content-center.mb-5
         .col-xl-6.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
           .box___card_sinbordes.h-100.color___1.text-white
@@ -159,10 +159,10 @@
       Separador
       #t_8_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 8.4 #[i Set point], valor consigna y variable de proceso
-      p.mb-0 El #[b set point] o valor consigna es el valor deseado para la variable controlada, por ejemplo 38 °C en una incubadora de huevos. La variable de proceso (PV) es el valor real medido por el sensor. La diferencia entre ambos se llama error, error = SP − PV. La variable manipulada es la que el controlador modifica para corregir el error, como la potencia entregada a la resistencia calefactora. Las perturbaciones son influencias externas que alejan la variable del #[b set point], como abrir la puerta de la incubadora.
+      p.mb-0 El #[i set point] o valor consigna es el valor deseado para la variable controlada, por ejemplo, 38 °C en una incubadora de huevos. La variable de proceso (PV) es el valor real medido por el sensor. La diferencia entre ambos se llama error: error = SP − PV. La variable manipulada es la que el controlador modifica para corregir el error, como la potencia entregada a la resistencia calefactora. Las perturbaciones son influencias externas que alejan la variable del #[i set point], como abrir la puerta de la incubadora.
       Separador
       #t_8_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 8.5 Control ON/OFF y control PID
+        h2 8.5 Control #[i ON/OFF] y control PID
       p.mb-5 Los controladores pueden actuar de dos maneras, que se comparan a continuación (Ogata, 2010):
       .row.justify-content-center.mb-5
         .col-xl-6.col-md-9.mb-4.mb-lg-0(data-aos="fade-right")
@@ -171,9 +171,9 @@
               .col-12
                 figure.mb-4
                   img(src='@/assets/curso/temas/t8/img10.png', alt="" ).m-auto
-              h4 Control ON/OFF
+              h4 Control #[i ON/OFF]
               .box___card_sinbordes_p
-                p.mb-0 El actuador solo tiene dos estados, totalmente encendido o apagado. Para evitar que conmute continuamente alrededor del set point se usa una banda de histéresis o diferencial, por ejemplo, la calefacción enciende a 37,5 °C y apaga a 38,5 °C. Es adecuado para procesos lentos que toleran pequeñas oscilaciones.
+                p.mb-0 El actuador solo tiene dos estados, totalmente encendido o apagado. Para evitar que conmute continuamente alrededor del #[i set point] se usa una banda de histéresis o diferencial, por ejemplo, la calefacción enciende a 37,5 °C y apaga a 38,5 °C. Es adecuado para procesos lentos que toleran pequeñas oscilaciones.
         .col-xl-6.col-md-9(data-aos="fade-left")
           .box___card_sinbordes.h-100.color___3
             .row.justify-content-center.mb-3
@@ -196,7 +196,7 @@
               th.texto-left Efecto principal
           tbody
             tr
-              td.ajuste-border-tabla.texto-left.text-weight-bold ON/OFF
+              td.ajuste-border-tabla.texto-left.text-weight-bold #[i ON/OFF]
               td.ajuste-border-tabla.texto-left Histéresis o diferencial
               td.texto-left Evita conmutaciones excesivas
             tr.ajuste-color-tabla

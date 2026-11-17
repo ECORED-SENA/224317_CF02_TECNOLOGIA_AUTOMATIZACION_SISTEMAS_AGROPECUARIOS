@@ -9,7 +9,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .box___style_1.fit___box_1(data-aos="fade-right")
-            p.mb-0 Un automatismo siempre está al servicio de un proceso, como secar café, pasteurizar leche, clasificar frutas, bombear agua o fabricar una pieza. Para instalar instrumentos de manera acertada es necesario comprender qué es un proceso industrial, cómo se clasifica, qué condiciones y límites tiene y cuáles son los procesos de fabricación con los que se elaboran soportes, piezas y accesorios de montaje.
+            p.mb-0 Un automatismo siempre está al servicio de un proceso, como secar café, pasteurizar leche, clasificar frutas, bombear agua o fabricar una pieza. Para instalar instrumentos de manera acertada, es necesario comprender qué es un proceso industrial, cómo se clasifica, qué condiciones y límites tiene y cuáles son los procesos de fabricación con los que se elaboran soportes, piezas y accesorios de montaje.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t6/img1.png', alt='' style="max-width: 400px").m-auto
@@ -100,7 +100,7 @@
       Separador
       #t_6_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 6.4 Procesos de fabricación por arranque de material
-      p.mb-5 Los soportes, bridas, acoples y piezas de montaje de los instrumentos se fabrican con procesos de manufactura. En los procesos por arranque de material una herramienta de corte retira material en forma de viruta (Kalpakjian y Schmid, 2014). Los principales se presentan a continuación:
+      p.mb-5 Los soportes, bridas, acoples y piezas de montaje de los instrumentos se fabrican con procesos de manufactura. En los procesos por arranque de material, una herramienta de corte retira material en forma de viruta (Kalpakjian y Schmid, 2014). Los principales se presentan a continuación:
       .row.justify-content-center.mb-5
         .col-xl-4.col-md-9.mt-4.mb-4.mb-lg-0(data-aos="zoom-in")
           .card___icon_out.h-100
@@ -154,7 +154,7 @@
       Separador
       #t_6_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 6.5 Procesos de fabricación por conformado
-      p.mb-5 En los procesos por conformado el material se deforma plásticamente sin retirar viruta (Kalpakjian y Schmid, 2014). Los principales se presentan a continuación:
+      p.mb-5 En los procesos por conformado, el material se deforma plásticamente sin retirar viruta (Kalpakjian y Schmid, 2014). Los principales se presentan a continuación:
       .bg___slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")
@@ -223,11 +223,11 @@
               td.ajuste-border-tabla.texto-left Conformado
               td.texto-left Gabinetes, soportes y bandejas portacables
             tr
-              td.ajuste-border-tabla.texto-left.text-weight-bold 
+              td.ajuste-border-tabla.texto-left.text-weight-bold Extrusión
               td.ajuste-border-tabla.texto-left Conformado
               td.texto-left Rieles DIN, canaletas y perfiles de aluminio
             tr.ajuste-color-tabla
-              td.ajuste-border-tabla.texto-left.text-weight-bold 
+              td.ajuste-border-tabla.texto-left.text-weight-bold Trefilado
               td.ajuste-border-tabla.texto-left Conformado
               td.texto-left Alambre de cobre para conductores
       .row.justify-content-center.mb-5
